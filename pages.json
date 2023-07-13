@@ -1,0 +1,102 @@
+{
+
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/building-list/building-list",
+			"style": {
+				"navigationBarTitleText": "高新区绿城浙砾XCL02-03…",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/help-center/help-center",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/colletDetail/colletDetail",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/collet_data/collet_data",
+			"style": {
+				"navigationBarTitleText": "数据采集",
+				"enablePullDownRefresh": true
+			}
+		
+		}, {
+			"path": "pages/in_doors/in_doors",
+			"style": {
+				"navigationBarTitleText": "采集数据详情",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/out_doors/out_doors",
+			"style": {
+				"navigationBarTitleText": "采集数据详情",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		// tabBar选中后的文字颜色
+		"selectedColor": "#005AA8",
+		// tabBar的文字颜色
+		"color": "#999",
+		// tabBar的背景颜色
+		"backgroundColor": "#FFF",
+		// tabBar的字体大小
+		"fontSize": "24rpx",
+		"list": [{
+				"iconPath": "/static/icon_home.png",
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"selectedIconPath": "/static/icon_home_selected.png"
+			},
+			{
+				"iconPath": "/static/icon_my.png",
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"selectedIconPath": "/static/icon_my_selected.png"
+			}
+		]
+	}
+}
